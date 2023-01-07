@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Common button style */
+
+.common-btn{
+    padding: 20px 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #1616cbeb;;
+    border: none;
+}
+
+/* Banner styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100vh;
+    background-image: url("/images/banner/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:left;
+    text-align: right;
+    padding-right: 250px;
+    
+    
+}
+.banner-container{
+    max-width: 620px;
+    max-height: 700px;
+    color: white;
+    
+}
+.banner-title{
+font-size: 85px;
+font-weight: 700;
+}
+
+.banner-description{
+  
+    line-height: 35px;
+    font-size: 18px;
+    margin: 5px 0 40px 0;
+}
+
+/* My-failure section style */
+
+.my-failures{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    margin: 100px 0 40px 0;
+   
+     
+}
+.left-failure-imgs{
+    max-width: 50%;
+    
+}
+.left-f-img{
+    width: 700px;
+    height: 900px;
+    padding-left: 50px;
+}
+
+.failure-contain-righ{
+    max-width: 50%;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+.failure-title-right{
+    font-size: 50px;
+    font-weight: 700;
+    width: 400px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.failure-description-right{
+    font-size: 18px;
+    color: gray;
+    width: 530px;
+    line-height: 30px;
+}
+.failure-type-right li{
+   list-style-type: none;
+   margin: 5px 0 0 -35px;
+   padding-top: 15px;
+}
+.chack-img{
+    width: 30px;
+    width: 30px;
+    padding: 5px 17px 0px 0px;
+    
+}
+/* My-plan section style */
+ 
+.plans-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+
+}
+.plan-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+.plan-subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.plan-about{
+    font-size: 30px;
+    color: gray; 
+}
+
+/* mind-set section styles */
+#mindset{
+    margin: 150px 0;
+}
+.mindset{
+    background-image: linear-gradient( to right,rgba(0, 94, 171, 0.856), rgba(0, 0, 0, 0.034)),url("/images/watch.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;justify-content: center;
+    width: 1140px;
+    height: 300px;
+    border-radius: 5px;
+}
+.mindset-continer {
+    margin: -19px 0px 0px -340px;
+}
+.mindset-title{
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 600px;
+    color: white;
+}
+
+/* Footer section-designe */
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: #ffffffcc;
+    
+    
+}
+.footer-l-side{
+    max-width: 500px;
+    
+}
+.footer-l-side-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.footer-l-side-description{
+line-height: 30px;
+padding: 20px 0;
+}
+.l-side-phn-email span{
+    display: block;
+    font-size: 18PX;
+    padding: 10px 0;
+}
+.social-midea img{
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.footer-r-side-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer-r-side input{
+    display: block;
+    padding: 16px 85px;
+    margin: 10px 0 30px 0;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+}
+.footer-btn{
+    background-color: rgba(0, 94, 171, 0.856);
+    color: white;
+}
