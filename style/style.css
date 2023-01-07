@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: end;
     height: 100vh;
-    background-image: url("images/banner/banner3.png");
+    background-image: url("../banner/banner3.png");
     background-size: cover;
     background-repeat: no-repeat;
     position:left;
@@ -136,7 +136,7 @@ font-weight: 700;
     margin: 150px 0;
 }
 .mindset{
-    background-image: linear-gradient( to right,rgba(0, 94, 171, 0.856), rgba(0, 0, 0, 0.034)),url("images/watch.png");
+    background-image: linear-gradient( to right,rgba(0, 94, 171, 0.856), rgba(0, 0, 0, 0.034)),url("../banner/watch.png");
     background-repeat: no-repeat;
     margin: 0 auto;
     display: flex;
