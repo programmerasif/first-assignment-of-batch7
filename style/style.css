@@ -156,6 +156,8 @@ font-weight: 700;
     color: white;
 }
 
+
+
 /* Footer section-designe */
 
 .footer-container{
@@ -210,4 +212,39 @@ padding: 20px 0;
 .footer-btn{
     background-color: rgba(0, 94, 171, 0.856);
     color: white;
+}
+
+/* Success section style */
+#success{
+    margin-top: 225px;
+    background-color: #f9f3f359;
+    padding: 80px 0;
+}
+
+.success-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.success-contains{
+    max-width: 700px;
+}
+.success-title{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 25px;
+    
+}
+.success-description{
+    font-size: 20px;
+    text-align: start;
+    line-height: 35px;
+    max-width: 450px;
+}
+.sub-success-description{
+    font-size: 18px;
+    max-width: 391px;
+    padding: 2rem 0 .4rem 0;
 }
